@@ -1,4 +1,4 @@
-/* Configuration */
+/** Configuration **/
 
 configuration {
 	modi:                       "run,window";
@@ -20,14 +20,14 @@ configuration {
     selected:       #61AFEFFF;
     active:         #98C379FF;
     urgent:         #E06C75FF;
-    red:            #a8323a;
-    blue:           #406edb;
-    pink:           #ed24cc;
-    green:          #70d921;
-    yellow:         #d9ba21;
-    orange:         #d94321;
-    black:          #000000;
-    white:          #ffffff;
+    red:            #a8323aff;
+    blue:           #406edbff;
+    pink:           #ed24ccff;
+    green:          #70d921ff;
+    yellow:         #d9ba21ff;
+    orange:         #d94321ff;
+    black:          #000000ff;
+    white:          #ffffffff;
 
     border-colour:               var(selected);
     handle-colour:               var(selected);
@@ -94,6 +94,7 @@ mainbox {
 }
 
 /** A Custom Box **/
+
 custombox {
     spacing:                     0px;
     background-color:            @background-colour;
